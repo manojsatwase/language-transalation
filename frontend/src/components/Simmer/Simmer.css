@@ -1,0 +1,18 @@
+  .skeleton-box{
+    height: 100%;
+    position: relative;
+    background: linear-gradient(90deg,#f4f5f7 8%,#e5e5e5 18%,#f4f5f7 33%);
+    background-size: 800px 104px;
+    animation: simmer 1s infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+  }
+  
+  @keyframes simmer{
+    0%{
+      background-position: -200px 0;
+    }
+    100% {
+      background-position: 468px 0;
+  }
+  }

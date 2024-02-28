@@ -1,0 +1,26 @@
+ /* Container for heading and description */
+  .main__container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading style */
+  .heading {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+    height: 2rem;
+  }
+  
+  /* Description style */
+  .description {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+    min-height: 8rem;
+  }
+  
